@@ -97,3 +97,52 @@
     font-size: 1.5rem;
     margin-bottom: 0;
 }
+
+/*media queries*/
+@media screen and (max-width: 920px){
+    .bottom-text{
+        font-size: 2rem;
+    }
+    .movie-text{
+        font-size: 1.3rem;
+    }
+}
+@media screen and (max-width: 650px){
+    .header-name{
+        font-size: 3rem;
+    }
+    .sub-header-name{
+        font-size: 1.2rem;
+    }
+    .bottom-text{
+        font-size: 2rem;
+    }
+    .movie-text{
+        font-size: 1.3rem;
+    }
+}
+@media screen and (max-width: 420px){
+    .outer-top-container{
+        padding-bottom: 5%;
+    }
+    .button-text{
+        font-size: 0.9rem;
+    }
+    .movie-box{
+        width: 90%;
+    }
+    .movie-text{
+        font-size: 1rem;
+    }
+}
+@media screen and (max-width: 360px){
+    .header-name{
+        font-size: 1.5rem;
+    }
+    .sub-header-name{
+        font-size: 0.8rem;
+    }
+    .movie-text{
+        font-size: 1rem;
+    }
+}

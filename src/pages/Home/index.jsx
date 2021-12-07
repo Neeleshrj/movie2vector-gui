@@ -43,7 +43,7 @@ export default function Home() {
         <div className="button-container">
           <div className="submit-button btn-grad" onClick={() => getData()}>
             <IoSearch className="icons" />
-            <p>{loading ? "Finding...": "Find"}</p>
+            <p className="button-text">{loading ? "Finding...": "Find"}</p>
           </div>
         </div>
       </div>
